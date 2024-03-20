@@ -6,12 +6,12 @@ import inquirer from"inquirer";
 
 const answer = await inquirer.prompt([
     {
-        message:"Enter first Number",
+        message:"Enter ypur first Number",
         type:"number",
         name:"number1"
     },
     {
-        message:"Enter second Number",
+        message:"Enter your second Number",
         type:"number",
         name:"number2"
     },
@@ -35,3 +35,4 @@ if(answer.operator==="Addition"){
 } else {
     console.log("Please select valid option");
 }
+console.log("THE END");
