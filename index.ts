@@ -6,7 +6,7 @@ import inquirer from"inquirer";
 
 const answer = await inquirer.prompt([
     {
-        message:"Enter ypur first Number",
+        message:"Enter your first Number",
         type:"number",
         name:"number1"
     },
